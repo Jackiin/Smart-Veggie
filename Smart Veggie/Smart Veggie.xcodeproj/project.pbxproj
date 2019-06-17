@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2400E29322B5FD20004244A0 /* YOLOv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2400E29222B5FD20004244A0 /* YOLOv3.mlmodel */; };
+		2428C1F622B612680096B92A /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2428C1F522B612680096B92A /* MobileNetV2.mlmodel */; };
+		2428C1F822B66AB80096B92A /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2428C1F722B66AB80096B92A /* ImageProcessor.swift */; };
+		24968D2122B7404A0018C3BF /* RecipeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24968D2022B7404A0018C3BF /* RecipeManager.swift */; };
+		24968D2322B74E1D0018C3BF /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24968D2222B74E1D0018C3BF /* ListController.swift */; };
+		24E8E8B122B27B8900945865 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8E8B022B27B8900945865 /* AppDelegate.swift */; };
+		24E8E8B322B27B8900945865 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8E8B222B27B8900945865 /* ViewController.swift */; };
+		24E8E8B622B27B8900945865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E8E8B422B27B8900945865 /* Main.storyboard */; };
+		24E8E8B822B27B8B00945865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E8E8B722B27B8B00945865 /* Assets.xcassets */; };
+		24E8E8BB22B27B8B00945865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E8E8B922B27B8B00945865 /* LaunchScreen.storyboard */; };
+		24E8E8C622B27B8B00945865 /* Smart_VeggieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8E8C522B27B8B00945865 /* Smart_VeggieTests.swift */; };
+		24E8E8D122B27B8B00945865 /* Smart_VeggieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8E8D022B27B8B00945865 /* Smart_VeggieUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24E8E8C222B27B8B00945865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24E8E8A522B27B8900945865 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24E8E8AC22B27B8900945865;
+			remoteInfo = "Smart Veggie";
+		};
+		24E8E8CD22B27B8B00945865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24E8E8A522B27B8900945865 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24E8E8AC22B27B8900945865;
+			remoteInfo = "Smart Veggie";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2400E29222B5FD20004244A0 /* YOLOv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = YOLOv3.mlmodel; path = ../YOLOv3.mlmodel; sourceTree = "<group>"; };
+		2428C1F522B612680096B92A /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNetV2.mlmodel; path = ../MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		2428C1F722B66AB80096B92A /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		24968D2022B7404A0018C3BF /* RecipeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeManager.swift; sourceTree = "<group>"; };
+		24968D2222B74E1D0018C3BF /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		24E8E8AD22B27B8900945865 /* Smart Veggie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Veggie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E8E8B022B27B8900945865 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24E8E8B222B27B8900945865 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24E8E8B522B27B8900945865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24E8E8B722B27B8B00945865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24E8E8BA22B27B8B00945865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24E8E8BC22B27B8B00945865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24E8E8C122B27B8B00945865 /* Smart VeggieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart VeggieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E8E8C522B27B8B00945865 /* Smart_VeggieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_VeggieTests.swift; sourceTree = "<group>"; };
+		24E8E8C722B27B8B00945865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24E8E8CC22B27B8B00945865 /* Smart VeggieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart VeggieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E8E8D022B27B8B00945865 /* Smart_VeggieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_VeggieUITests.swift; sourceTree = "<group>"; };
+		24E8E8D222B27B8B00945865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24E8E8AA22B27B8900945865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E8E8BE22B27B8B00945865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E8E8C922B27B8B00945865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24E8E8A422B27B8900945865 = {
+			isa = PBXGroup;
+			children = (
+				2428C1F522B612680096B92A /* MobileNetV2.mlmodel */,
+				2400E29222B5FD20004244A0 /* YOLOv3.mlmodel */,
+				24E8E8AF22B27B8900945865 /* Smart Veggie */,
+				24E8E8C422B27B8B00945865 /* Smart VeggieTests */,
+				24E8E8CF22B27B8B00945865 /* Smart VeggieUITests */,
+				24E8E8AE22B27B8900945865 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24E8E8AE22B27B8900945865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24E8E8AD22B27B8900945865 /* Smart Veggie.app */,
+				24E8E8C122B27B8B00945865 /* Smart VeggieTests.xctest */,
+				24E8E8CC22B27B8B00945865 /* Smart VeggieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24E8E8AF22B27B8900945865 /* Smart Veggie */ = {
+			isa = PBXGroup;
+			children = (
+				24E8E8B022B27B8900945865 /* AppDelegate.swift */,
+				24E8E8B222B27B8900945865 /* ViewController.swift */,
+				24E8E8B422B27B8900945865 /* Main.storyboard */,
+				24E8E8B722B27B8B00945865 /* Assets.xcassets */,
+				24E8E8B922B27B8B00945865 /* LaunchScreen.storyboard */,
+				24E8E8BC22B27B8B00945865 /* Info.plist */,
+				2428C1F722B66AB80096B92A /* ImageProcessor.swift */,
+				24968D2022B7404A0018C3BF /* RecipeManager.swift */,
+				24968D2222B74E1D0018C3BF /* ListController.swift */,
+			);
+			path = "Smart Veggie";
+			sourceTree = "<group>";
+		};
+		24E8E8C422B27B8B00945865 /* Smart VeggieTests */ = {
+			isa = PBXGroup;
+			children = (
+				24E8E8C522B27B8B00945865 /* Smart_VeggieTests.swift */,
+				24E8E8C722B27B8B00945865 /* Info.plist */,
+			);
+			path = "Smart VeggieTests";
+			sourceTree = "<group>";
+		};
+		24E8E8CF22B27B8B00945865 /* Smart VeggieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24E8E8D022B27B8B00945865 /* Smart_VeggieUITests.swift */,
+				24E8E8D222B27B8B00945865 /* Info.plist */,
+			);
+			path = "Smart VeggieUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24E8E8AC22B27B8900945865 /* Smart Veggie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24E8E8D522B27B8B00945865 /* Build configuration list for PBXNativeTarget "Smart Veggie" */;
+			buildPhases = (
+				24E8E8A922B27B8900945865 /* Sources */,
+				24E8E8AA22B27B8900945865 /* Frameworks */,
+				24E8E8AB22B27B8900945865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Veggie";
+			productName = "Smart Veggie";
+			productReference = 24E8E8AD22B27B8900945865 /* Smart Veggie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24E8E8C022B27B8B00945865 /* Smart VeggieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24E8E8D822B27B8B00945865 /* Build configuration list for PBXNativeTarget "Smart VeggieTests" */;
+			buildPhases = (
+				24E8E8BD22B27B8B00945865 /* Sources */,
+				24E8E8BE22B27B8B00945865 /* Frameworks */,
+				24E8E8BF22B27B8B00945865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24E8E8C322B27B8B00945865 /* PBXTargetDependency */,
+			);
+			name = "Smart VeggieTests";
+			productName = "Smart VeggieTests";
+			productReference = 24E8E8C122B27B8B00945865 /* Smart VeggieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24E8E8CB22B27B8B00945865 /* Smart VeggieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24E8E8DB22B27B8B00945865 /* Build configuration list for PBXNativeTarget "Smart VeggieUITests" */;
+			buildPhases = (
+				24E8E8C822B27B8B00945865 /* Sources */,
+				24E8E8C922B27B8B00945865 /* Frameworks */,
+				24E8E8CA22B27B8B00945865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24E8E8CE22B27B8B00945865 /* PBXTargetDependency */,
+			);
+			name = "Smart VeggieUITests";
+			productName = "Smart VeggieUITests";
+			productReference = 24E8E8CC22B27B8B00945865 /* Smart VeggieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24E8E8A522B27B8900945865 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Team B";
+				TargetAttributes = {
+					24E8E8AC22B27B8900945865 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					24E8E8C022B27B8B00945865 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 24E8E8AC22B27B8900945865;
+					};
+					24E8E8CB22B27B8B00945865 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 24E8E8AC22B27B8900945865;
+					};
+				};
+			};
+			buildConfigurationList = 24E8E8A822B27B8900945865 /* Build configuration list for PBXProject "Smart Veggie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24E8E8A422B27B8900945865;
+			productRefGroup = 24E8E8AE22B27B8900945865 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24E8E8AC22B27B8900945865 /* Smart Veggie */,
+				24E8E8C022B27B8B00945865 /* Smart VeggieTests */,
+				24E8E8CB22B27B8B00945865 /* Smart VeggieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24E8E8AB22B27B8900945865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E8E8BB22B27B8B00945865 /* LaunchScreen.storyboard in Resources */,
+				24E8E8B822B27B8B00945865 /* Assets.xcassets in Resources */,
+				24E8E8B622B27B8900945865 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E8E8BF22B27B8B00945865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E8E8CA22B27B8B00945865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24E8E8A922B27B8900945865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2400E29322B5FD20004244A0 /* YOLOv3.mlmodel in Sources */,
+				24E8E8B322B27B8900945865 /* ViewController.swift in Sources */,
+				2428C1F822B66AB80096B92A /* ImageProcessor.swift in Sources */,
+				24968D2122B7404A0018C3BF /* RecipeManager.swift in Sources */,
+				2428C1F622B612680096B92A /* MobileNetV2.mlmodel in Sources */,
+				24E8E8B122B27B8900945865 /* AppDelegate.swift in Sources */,
+				24968D2322B74E1D0018C3BF /* ListController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E8E8BD22B27B8B00945865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E8E8C622B27B8B00945865 /* Smart_VeggieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E8E8C822B27B8B00945865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E8E8D122B27B8B00945865 /* Smart_VeggieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24E8E8C322B27B8B00945865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24E8E8AC22B27B8900945865 /* Smart Veggie */;
+			targetProxy = 24E8E8C222B27B8B00945865 /* PBXContainerItemProxy */;
+		};
+		24E8E8CE22B27B8B00945865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24E8E8AC22B27B8900945865 /* Smart Veggie */;
+			targetProxy = 24E8E8CD22B27B8B00945865 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24E8E8B422B27B8900945865 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24E8E8B522B27B8900945865 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24E8E8B922B27B8B00945865 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24E8E8BA22B27B8B00945865 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24E8E8D322B27B8B00945865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24E8E8D422B27B8B00945865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24E8E8D622B27B8B00945865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Smart Veggie/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Team-B.Smart-Veggie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24E8E8D722B27B8B00945865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Smart Veggie/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Team-B.Smart-Veggie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24E8E8D922B27B8B00945865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Smart VeggieTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Team-B.Smart-VeggieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Veggie.app/Smart Veggie";
+			};
+			name = Debug;
+		};
+		24E8E8DA22B27B8B00945865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Smart VeggieTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Team-B.Smart-VeggieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Veggie.app/Smart Veggie";
+			};
+			name = Release;
+		};
+		24E8E8DC22B27B8B00945865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Smart VeggieUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Team-B.Smart-VeggieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Veggie";
+			};
+			name = Debug;
+		};
+		24E8E8DD22B27B8B00945865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Smart VeggieUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Team-B.Smart-VeggieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Veggie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24E8E8A822B27B8900945865 /* Build configuration list for PBXProject "Smart Veggie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E8E8D322B27B8B00945865 /* Debug */,
+				24E8E8D422B27B8B00945865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24E8E8D522B27B8B00945865 /* Build configuration list for PBXNativeTarget "Smart Veggie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E8E8D622B27B8B00945865 /* Debug */,
+				24E8E8D722B27B8B00945865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24E8E8D822B27B8B00945865 /* Build configuration list for PBXNativeTarget "Smart VeggieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E8E8D922B27B8B00945865 /* Debug */,
+				24E8E8DA22B27B8B00945865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24E8E8DB22B27B8B00945865 /* Build configuration list for PBXNativeTarget "Smart VeggieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E8E8DC22B27B8B00945865 /* Debug */,
+				24E8E8DD22B27B8B00945865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24E8E8A522B27B8900945865 /* Project object */;
+}
